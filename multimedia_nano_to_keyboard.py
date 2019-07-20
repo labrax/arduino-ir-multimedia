@@ -38,6 +38,8 @@ def read():
                 time.sleep(0.1)
                 keyboard.release(kb_c)
                 last_time = current_milli_time
+            else:
+                last = None
     
 if __name__ == '__main__':
     while True:
